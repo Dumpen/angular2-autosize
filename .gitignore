@@ -9,5 +9,5 @@ npm-debug.log
 *.ngsummary.json
 dist/*
 !dist/package.json
-*.ngfactory.ts
-*.ngsummary.json
+*.ngsummary.*
+*.ngfactory.*
