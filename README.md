@@ -1,28 +1,30 @@
-# angular2-autosize
+# angular-autosize
 
-***angular2-autosize*** is an Angular2 directive that automatically adjusts textarea height to fit content.
+## Forked from https://github.com/markhatchell/angular2-autosize ##
+
+***angular-autosize*** is an Angular directive that automatically adjusts textarea height to fit content.
 
 It adjusts the textarea height automatically to any text input, or changes to the model bound to the textarea.
 
 ## Demo
 
-[http://stevepapa.com/angular2-autosize](http://stevepapa.com/angular2-autosize)
+[http://stevepapa.com/angular-autosize](http://stevepapa.com/angular-autosize)
 
 ## Installation:
 
 ```bash
-npm install angular2-autosize
+npm install angular-autosize
 ```
 
 ## Use Example:
 
 ```typescript
 import {Component} from '@angular/core';
-import {Autosize} from 'angular2-autosize';
+import {Autosize} from 'angular-autosize';
 
 @Component({
   template: `
-    <textarea autosize class="my-textarea">Hello, this is an example of Autosize in Angular2.</textarea>
+    <textarea autosize class="my-textarea">Hello, this is an example of Autosize in Angular.</textarea>
   `,
   directives: [Autosize]
 })
@@ -38,4 +40,4 @@ class App {
 
 ## Licence
 
-This project is licensed under the MIT license. See the [LICENSE](LICENSE) file for more info.
+This project is licensed under the MIT license.

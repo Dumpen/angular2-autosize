@@ -1,0 +1,37 @@
+{
+  "name": "angular-autosize-dumpen",
+  "author": "Steve Papa <dev@stevepapa.com>",
+  "version": "2.0.0",
+  "description": "Directive that automatically adjusts textarea height to fit content",
+  "license": "MIT",
+  "homepage": "https://github.com/Dumpen/angular2-autosize",
+  "readmeFilename": "README.md",
+  "keywords": [
+    "angular",
+    "angular2",
+    "angular4",
+    "autosize",
+    "textarea",
+    "elastic",
+    "height",
+    "@angular"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Dumpen/angular2-autosize"
+  },
+  "bugs": {
+    "url": "https://github.com/Dumpen/angular2-autosize/issues"
+  },
+  "main": "bundles/angular-module-starter.umd.js",
+  "module": "index.js",
+  "typings": "index.d.ts",
+  "scripts": {},
+  "peerDependencies": {
+    "@angular/core": "^6.1.0",
+    "reflect-metadata": "^0.1.8",
+    "rxjs": "~6.2.0",
+    "zone.js": "~0.8.26",
+    "typescript": "~2.9.2"
+  }
+}
