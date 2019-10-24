@@ -1,6 +1,6 @@
 {
     "name": "angular-autosize-dumpen",
-    "version": "2.0.0",
+    "version": "3.0.0",
     "main": "dist/bundles/autosize.umd.js",
     "module": "dist/index.js",
     "scripts": {
