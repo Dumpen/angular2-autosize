@@ -1,10 +1,15 @@
-export default {
-  entry: 'dist/index.js',
-  dest: 'dist/bundles/autosize.umd.js',
-  sourceMap: false,
-  format: 'umd',
-  moduleName: 'ng.autosize',
-  globals: {
-    '@angular/core': 'ng.core'
-  }
-}
+export default [
+    // browser-friendly UMD build
+    {
+        input: 'dist/index.js',
+        output: {
+            name: 'ng.autosize',
+            file: "dist/bundles/autosize.umd.js",
+            sourceMap: false,
+            format: 'umd',
+            globals: {
+                '@angular/core': 'ng.core'
+            }
+        }
+    }
+]

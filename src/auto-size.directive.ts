@@ -12,8 +12,10 @@ export class AutoSizeDirective {
     }
 
     ngAfterViewInit(): void {
+        var self = this;
+
         setTimeout(() => {
-            this.adjust();
+            self.adjust();
         }, 1);
     }
 
